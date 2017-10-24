@@ -12,9 +12,11 @@ pip install .
 ```
 
 ## Example usage
-Initialize the `Understanding` object, providing the service name (`wit` currently only supported) and API key.
+Set environment variable `UNDERSTANDING_API_KEY` to for example your Wit.ai key. As an alternative, you can provide the `api_key` keyword argument for the `Understanding` object.
+
+Initialize the `Understanding` object, providing the service name (`wit` currently only supported).
 ```
-understand = Understanding('<service>','<api-key>')
+understand = Understanding('<service>')
 ```
 
 Messages can then be parsed through:
