@@ -10,6 +10,6 @@ setup(name='Understanding',
       url='https://bottist.com/',
       packages=['understanding'],
       install_requires=[
-          'requests==2.18.4',
+          'requests>=2.20.0',
       ],
      )
